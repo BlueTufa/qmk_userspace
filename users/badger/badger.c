@@ -1,5 +1,5 @@
 /*
-Copyright 2020 Dan White <opensource@bluetufa.com>
+Copyright 2023 Dan White <opensource@bluetufa.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -52,12 +52,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case CONST:
       if (record->event.pressed) {
         SEND_STRING("const ");
-        return false;
-      }
-    case SHRUG:
-      if (record->event.pressed) {
-        SEND_STRING("¯\\_()_/¯");
-        SEND_STRING(SS_LALT("D30C4"));
         return false;
       }
     case SELECT:
