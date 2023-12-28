@@ -4,6 +4,7 @@
         ["1upkeyboards/pi60_hse", "badger"],
         ["mode/m256ws", "badger"],
         ["trashman/ketch", "badger"],
-        ["1upkeyboards/1up60rgb", "badger"]
+        ["1upkeyboards/1up60rgb", "badger"],
+        ["1upkeyboards/1up60hse", "badger"]
     ]
 }
