@@ -104,7 +104,7 @@ enum CustomKeys {
 #define IJ_DECL    LGUI(KC_B)
 #define IJ_REN     LSFT(KC_F6)
 #define IJ_USAG    LALT(KC_F7)
-#define IJ_RUN     LCTL(LALT(KC_D))
+#define IJ_RUN     LALT(LGUI(KC_R))
 #define IJ_NEXT    KC_F9
 #define IJ_STEP    KC_F8
 #define IJ_INTO    LSFT(KC_F7)
