@@ -26,14 +26,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      MAC_FRC,   MM_LEFT,  MM_RGHT,  KC_HASH,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_AMPR,  KC_ASTR,  P_PAREN,  KC_RPRN,  KC_UNDS,  KC_PLUS,  WD_DELE,  \
      _______,   IJ_STEP,  IJ_INTO,  IJ_OUT,   IJ_NEXT,  IJ_STOP,  IJ_TOP,   WD_BACK,  KC_HOME,  KC_END,   WD_FRWD,  IJ_BACK,  IJ_FWD,   KC_PIPE,  \
      _______,   MM_LH,    MM_MAX,   MM_RH,    IJ_FIND,  IJ_LINE,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_COLN,  KC_DQUO,  _______,  \
-     _______,   MM_UH,    MM_BH,    MAC_CPY,  MAC_SPS,  SHEBANG,  IJ_BOTT,  IJ_REN,   IJ_IMPL,  IJ_DECL,  IJ_USAG,  _______,  _______,  \
+     _______,   MM_UH,    MM_BH,    MAC_CPY,  MAC_SPS,  _______,  IJ_BOTT,  IJ_REN,   IJ_IMPL,  IJ_DECL,  IJ_USAG,  _______,  _______,  \
                 _______,  _______,                                _______,                                _______,  _______   ),
 
 [_FUNCTION]   = LAYOUT_60_ansi(\
      KC_ESC,    KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_DEL,  \
      _______,   _______,  _______,  _______,  IJ_RFMT,  IJ_TERM,  KC_MPLY,  KC_PGUP,  _______,  _______,  KC_PGDN,  KC_VOLD,  KC_VOLU,  KC_INS,  \
      _______,   _______,  _______,  IJ_DEBG,  IJ_FILE,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  \
-     _______,   _______,  _______,  KC_CAPS,  _______,  _______,  KC_MNXT,  KC_MUTE,  KC_WBAK,  _______,  _______,  _______,  CONFIG,   \
+     _______,   _______,  _______,  KC_CAPS,  _______,  KC_MRWD,  KC_MNXT,  KC_MUTE,  _______,  _______,  _______,  _______,  CONFIG,   \
                 _______,  _______,                                _______,                                _______,  _______   ),
 
 [_MACRO]     = LAYOUT_60_ansi(\
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_CONFIG]     = LAYOUT_60_ansi(\
      _______,   _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______, \
      _______,   _______,  _______,  EE_CLR,   QK_BOOT,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______, \
-     _______,   _______,  _______,  DB_TOGG,  RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_SPI,  RGB_M_B,  _______,  _______,  RGB_TOG,  _______, \
-     _______,   _______,  _______,  _______,  RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_SPD,  RGB_M_K,  _______,  _______,  _______,  _______, \
+     _______,   _______,  _______,  DB_TOGG,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______, \
+     _______,   _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______, \
                 _______,  _______,                                _______,                                _______,  _______   )
 };
