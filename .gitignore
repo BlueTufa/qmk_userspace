@@ -10,3 +10,8 @@
 *.bin
 *.uf2
 .idea/
+
+# clangd
+compile_commands.json
+.clangd/
+.cache/
